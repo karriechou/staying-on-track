@@ -24,7 +24,7 @@ merged_prototype_students <-
   filter(ca_consent == "True")
 ```
 
-Code and data supporting this statistical analysis can be found at (link). 
+Code and data supporting this statistical analysis can be found at https://github.com/karriechou/staying-on-track. 
 
 # Keywords
 A/B comparisons, email, procrastination, online classroom, reminders. 
