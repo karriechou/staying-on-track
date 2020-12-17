@@ -48,7 +48,7 @@ Within the online homework module, students were allowed to make multiple submis
 
 To make the dataset for the regression model and the subsequent data analysis in this report, a dataset containing information on how each student was divided into control and the various treatment groups as well as their survey answers (referred to henceforth as *merged_prototype*), and another dataset containing information on when students started and completed various homework attempts (referred to henceforth as *dependent_variables*) were combined using the following process: 
 
-- Within merged_prototype, there is a variable which records if a student consented to have their homework and survey data used for research analysis. Using the tidyverse filter() function, only students who consented to having their homework and survey data used for research analysis were included in the model dataset. 
+- Within merged_prototype, there is a variable which records if a student consented to have their homework and survey data used for research analysis. Using the Tidyverse filter() function, only students who consented to having their homework and survey data used for research analysis were included in the model dataset. 
 - Then, an inner join between dependent_variables and the filtered merged_prototype was carried out in order to match student IDs across the two datasets. 
 
 Of particular concern to this data analysis is the data from the homework submissions for the 7^th^ week of the course. From here, items such as homework start and homework end times, homework attempt rates, homework completion rates, and the sizes for the control group and each treatment group were determined. For this study, each treatment group's size was as follows: 
